@@ -1,0 +1,44 @@
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+ 
+  @media (min-width: 35em) {
+    .main {
+      max-width: 33.75rem;
+      margin-top: 8.3125rem;
+      margin-inline: auto;
+    }
+    .field {
+        padding: 1.5rem 2rem;
+      }
+      .options {
+          padding: 1.5rem 2rem;
+        }
+        .fs-1 {
+            line-height: 2.64rem;
+          }
+        
+          .fs-2 {
+            line-height: 1.98rem;
+          }
+        
+          .fs-3 {
+            line-height: 1.485rem;
+          }
+          :root {
+            --fs-1: 2rem;
+            --fs-2: 1.5rem;
+            --fs-3: 1.125rem;
+          }
+  }
+
+
+  
